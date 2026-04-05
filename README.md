@@ -4,7 +4,7 @@ A modern, responsive, and high-performance Institutional Landing Page developed 
 
 ##  Live Deployment
 The project is live and can be accessed via Vercel:
-🔗 **[INSERT YOUR VERCEL URL HERE]**
+https://vercel.com/khushiravisolanki-gmailcoms-projects/college-website
 
 ##  Project Objectives
 The primary goal of this project was to explore and implement:
