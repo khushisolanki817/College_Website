@@ -2,7 +2,7 @@
 **A Professional Web Application Focused on Cloud Deployment & Edge Computing**
 
 ###  Live Project Link
-> **Check out the live website here:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app)
+> **Check out the live website here:** https://college-website-self-iota.vercel.app/
 *(Note: Replace the URL above with your actual Vercel deployment link)*
 
 ##  Project Overview
