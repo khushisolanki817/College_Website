@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Institute of Technology | Cloud Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <nav class="glass border-b border-gray-200 sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg">G</div>
+                <span class="text-xl font-bold text-slate-800 tracking-tight text-blue-900">GLOBAL TECH UNIVERSITY</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-semibold text-slate-600">
+                <a href="#" class="hover:text-blue-700 transition">Admissions</a>
+                <a href="#" class="hover:text-blue-700 transition">Research</a>
+                <a href="#" class="hover:text-blue-700 transition">Placement</a>
+            </div>
+            <button class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full font-semibold transition shadow-md">
+                Student Login
+            </button>
+        </div>
+    </nav>
+
+    <header class="relative bg-slate-900 py-24 overflow-hidden">
+        <div class="absolute inset-0 opacity-40">
+            <img src="https://images.unsplash.com/photo-1523050853063-bd80e27433fb?q=80&w=1600&auto=format&fit=crop" class="w-full h-full object-cover">
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center md:text-left">
+            <div class="max-w-2xl">
+                <span class="bg-blue-600 text-white px-3 py-1 rounded text-xs font-bold uppercase tracking-widest">Ranked #1 in Innovation</span>
+                <h2 class="text-4xl md:text-6xl font-extrabold text-white mt-4 leading-tight">Empowering Minds to Lead the Digital Era</h2>
+                <p class="text-slate-300 mt-6 text-lg">World-class infrastructure, industry-focused curriculum, and global placement support.</p>
+                <div class="mt-10 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                    <a href="#courses" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-center transition">Explore Programs</a>
+                    <a href="#" class="border border-white text-white px-8 py-4 rounded-lg font-bold text-center hover:bg-white hover:text-slate-900 transition">Download Prospectus</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="courses" class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-extrabold text-slate-900">Academic Excellence</h2>
+            <div class="w-20 h-1.5 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-2xl transition duration-500">
+                <div class="relative overflow-hidden h-56">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-blue-800">New</div>
+                </div>
+                <div class="p-8">
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">School of Computing</h4>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">Specializations in Cloud Infrastructure, Cybersecurity, and AI development with Google Cloud Partnership.</p>
+                    <a href="#" class="text-blue-700 font-bold hover:text-blue-900 inline-flex items-center">View Details <span class="ml-2">→</span></a>
+                </div>
+            </div>
+
+            <div class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-2xl transition duration-500">
+                <div class="relative overflow-hidden h-56">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-8">
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Business Management</h4>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">Prepare for the global market with our MBA and BBA programs focused on FinTech and Digital Marketing.</p>
+                    <a href="#" class="text-blue-700 font-bold hover:text-blue-900 inline-flex items-center">View Details <span class="ml-2">→</span></a>
+                </div>
+            </div>
+
+            <div class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-2xl transition duration-500">
+                <div class="relative overflow-hidden h-56">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-8">
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Robotics & Engineering</h4>
+                    <p class="text-slate-600 mb-6 text-sm leading-relaxed">Advance your skills in Mechanical, Civil, and Electronics engineering with advanced research labs.</p>
+                    <a href="#" class="text-blue-700 font-bold hover:text-blue-900 inline-flex items-center">View Details <span class="ml-2">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-6 mb-6">
+                <span class="text-white font-bold">GTU INDIA</span>
+            </div>
+            <p class="text-sm">© 2026 Cloud Computing Assignment. Deployed on Vercel Edge Network.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
