@@ -1,35 +1,35 @@
-#  University Academic Portal | Cloud Computing Project
+#  EduCloud: Interactive Campus Portal
+**A Professional Web Application Focused on Cloud Deployment & Edge Computing**
 
-A modern, responsive, and high-performance Institutional Landing Page developed as part of a **Cloud Computing Academic Practical**. This project demonstrates the implementation of a modern frontend architecture and its seamless deployment on a global Edge Network.
+###  Live Project Link
+> **Check out the live website here:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app)
+*(Note: Replace the URL above with your actual Vercel deployment link)*
 
-##  Live Deployment
-The project is live and can be accessed via Vercel:
-https://vercel.com/khushiravisolanki-gmailcoms-projects/college-website
+##  Project Overview
+EduCloud is an interactive, modern web portal designed for educational institutions. This project demonstrates the practical application of **Cloud Computing** concepts by leveraging a serverless architecture and automated deployment pipelines.
 
-##  Project Objectives
-The primary goal of this project was to explore and implement:
-* **Static Site Generation (SSG):** Delivering pre-rendered HTML for lightning-fast load times.
-* **CI/CD Pipeline:** Automating the deployment workflow using GitHub and Vercel.
-* **Global Content Delivery:** Utilizing Edge Computing to serve content from the nearest geographical node.
+### Key Features:
+* **Modern UI/UX:** Built with a professional color palette and responsive Flexbox/Grid layouts.
+* **Interactive Elements:** JavaScript-driven scroll animations and dynamic UI components.
+* **Glassmorphism Effects:** Semi-transparent navigation and cards for a premium feel.
+* **Optimized Performance:** Minimized latency through global distribution.
 
 ##  Technical Stack
-* **Language:** HTML5 & CSS3
-* **Framework:** [Tailwind CSS](https://tailwindcss.com/) (PostCSS via CDN)
-* **Typography:** Google Fonts (Inter UI)
-* **Hosting:** [Vercel](https://vercel.com/) (Serverless Architecture)
-* **Version Control:** Git & GitHub
+* **Frontend:** HTML5, CSS3 (Custom Variables & Keyframe Animations), JavaScript (ES6+).
+* **Icons & Fonts:** FontAwesome 6.0 & Google Fonts (Poppins).
+* **Cloud Platform:** **Vercel** (Edge Network).
+* **Version Control:** Git & GitHub.
 
-##  Cloud Implementation Details
-In this practical, the following Cloud concepts were successfully implemented:
-1.  **Serverless Hosting:** Eliminated the need for manual server provisioning or maintenance.
-2.  **Automated Build & Deploy:** Integrated a Continuous Deployment (CD) trigger—every `git push` to the main branch automatically updates the production environment.
-3.  **Scalability:** The infrastructure is designed to handle traffic spikes using the Vercel Edge Network.
-4.  **SSL/TLS Security:** Automated certificate issuance for secure `https` communication.
-
-##  Preview
-*A high-fidelity, mobile-responsive layout featuring a Hero section, Academic Programs grid, and a professional Footer.*
+##  Cloud Computing Concepts Applied
+This project serves as a case study for the following cloud principles:
+1.  **Platform as a Service (PaaS):** Using Vercel to manage infrastructure, allowing focus purely on code.
+2.  **Continuous Integration/Continuous Deployment (CI/CD):** Automated build and deployment triggered by GitHub commits.
+3.  **Content Delivery Network (CDN):** Serving static assets from the nearest edge location to the user for 99.9% uptime and speed.
+4.  **Scalability:** Cloud-native hosting that handles traffic spikes without manual intervention.
 
 ##  Project Structure
 ```text
-├── index.html         # Core Application Code (Tailwind-integrated)
-└── README.md          # Project Documentation & Technical Overview
+├── index.html       # Core structure and SEO meta tags
+├── style.css        # Professional styling, animations, and responsiveness
+├── script.js        # Interactivity, scroll observers, and UI logic
+└── README.md        # Technical documentation
